@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- flex container containing exam contents -->
+    <section class="exam-container">
+      <!-- first flex item containing exam subjects -->
+      <div class="column_one">
+        <button
+          class="tablinks"
+          id="defaultOpen"
+          onclick="openSubject(event, 'subject-one')"
+        >
+          English
+        </button>
+        <button class="tablinks" onclick="openSubject(event, 'subject-two')">
+          mathematics
+        </button>
+        <button class="tablinks" onclick="openSubject(event, 'subject-three')">
+          Biology
+        </button>
+      </div>
+
+      <!-- second flex item containing question and options -->
+      <div class="column_two" id="subject-one">
+        <h2 class="question_header">Question</h2>
+        <div class="question">
+          <p>What is the opposite of good</p>
+        </div>
+        <div class="options">
+          <span class="option_letter">A</span>
+          <input type="radio" name="radio" id="radio1" />
+          <label for="radio1"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit natus quidem illum enim deserunt laborum fuga, sit
+            molestiae iusto odio deleniti quia!</label
+          >
+        </div>
+        <div class="options">
+          <span class="option_letter">B</span>
+          <input type="radio" name="radio" id="radio2" />
+          <label for="radio2"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">C</span>
+          <input type="radio" name="radio" id="radio3" />
+          <label for="radio3"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">D</span>
+          <input type="radio" name="radio" id="radio4" />
+          <label for="radio4"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit
+          </label>
+        </div>
+        <div class="quest_nav_btn_container">
+          <button class="previous_btn">Previous</button>
+          <button class="next_btn">Next</button>
+        </div>
+        <div class="quest_nav_box_container">
+          <div class="quest_nav_item_box">1</div>
+          <div class="quest_nav_item_box">2</div>
+          <div class="quest_nav_item_box">3</div>
+          <div class="quest_nav_item_box">4</div>
+          <div class="quest_nav_item_box">5</div>
+          <div class="quest_nav_item_box">6</div>
+          <div class="quest_nav_item_box">7</div>
+          <div class="quest_nav_item_box">8</div>
+          <div class="quest_nav_item_box">9</div>
+          <div class="quest_nav_item_box">10</div>
+          <div class="quest_nav_item_box">11</div>
+          <div class="quest_nav_item_box">12</div>
+          <div class="quest_nav_item_box">13</div>
+          <div class="quest_nav_item_box">14</div>
+          <div class="quest_nav_item_box">15</div>
+          <div class="quest_nav_item_box">16</div>
+          <div class="quest_nav_item_box">17</div>
+          <div class="quest_nav_item_box">18</div>
+          <div class="quest_nav_item_box">19</div>
+          <div class="quest_nav_item_box">20</div>
+          <div class="quest_nav_item_box">21</div>
+          <div class="quest_nav_item_box">22</div>
+          <div class="quest_nav_item_box">23</div>
+          <div class="quest_nav_item_box">24</div>
+          <div class="quest_nav_item_box">25</div>
+          <div class="quest_nav_item_box">26</div>
+          <div class="quest_nav_item_box">27</div>
+          <div class="quest_nav_item_box">28</div>
+          <div class="quest_nav_item_box">29</div>
+          <div class="quest_nav_item_box">30</div>
+          <div class="quest_nav_item_box">31</div>
+          <div class="quest_nav_item_box">32</div>
+          <div class="quest_nav_item_box">33</div>
+          <div class="quest_nav_item_box">34</div>
+          <div class="quest_nav_item_box">35</div>
+          <div class="quest_nav_item_box">36</div>
+          <div class="quest_nav_item_box">37</div>
+          <div class="quest_nav_item_box">38</div>
+          <div class="quest_nav_item_box">39</div>
+          <div class="quest_nav_item_box">40</div>
+          <div class="quest_nav_item_box">41</div>
+          <div class="quest_nav_item_box">42</div>
+        </div>
+      </div>
+
+      <div class="column_two" id="subject-two">
+        <h3 class="question_header">Question</h3>
+        <div class="question">
+          <p>What is the opposite of good</p>
+        </div>
+        <div class="options">
+          <span class="option_letter">A</span>
+          <input type="radio" name="radio" id="radio5" />
+          <label for="radio5"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit natus quidem illum enim deserunt laborum fuga, sit
+            molestiae iusto odio deleniti quia!</label
+          >
+        </div>
+        <div class="options">
+          <span class="option_letter">B</span>
+          <input type="radio" name="radio" id="radio6" />
+          <label for="radio6"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">C</span>
+          <input type="radio" name="radio" id="radio7" />
+          <label for="radio7"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">D</span>
+          <input type="radio" name="radio" id="radio8" />
+          <label for="radio8"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit
+          </label>
+        </div>
+        <div class="quest_nav_btn_container">
+          <button class="previous_btn">Previous</button>
+          <button class="next_btn">Next</button>
+        </div>
+        <div class="quest_nav_box_container">
+          <div class="quest_nav_item_box">1</div>
+          <div class="quest_nav_item_box">2</div>
+          <div class="quest_nav_item_box">3</div>
+          <div class="quest_nav_item_box">4</div>
+          <div class="quest_nav_item_box">5</div>
+          <div class="quest_nav_item_box">6</div>
+          <div class="quest_nav_item_box">7</div>
+          <div class="quest_nav_item_box">8</div>
+          <div class="quest_nav_item_box">9</div>
+          <div class="quest_nav_item_box">10</div>
+          <div class="quest_nav_item_box">11</div>
+          <div class="quest_nav_item_box">12</div>
+          <div class="quest_nav_item_box">13</div>
+          <div class="quest_nav_item_box">14</div>
+          <div class="quest_nav_item_box">15</div>
+          <div class="quest_nav_item_box">16</div>
+          <div class="quest_nav_item_box">17</div>
+          <div class="quest_nav_item_box">18</div>
+          <div class="quest_nav_item_box">19</div>
+          <div class="quest_nav_item_box">20</div>
+          <div class="quest_nav_item_box">21</div>
+          <div class="quest_nav_item_box">22</div>
+          <div class="quest_nav_item_box">23</div>
+          <div class="quest_nav_item_box">24</div>
+          <div class="quest_nav_item_box">25</div>
+          <div class="quest_nav_item_box">26</div>
+          <div class="quest_nav_item_box">27</div>
+          <div class="quest_nav_item_box">28</div>
+          <div class="quest_nav_item_box">29</div>
+          <div class="quest_nav_item_box">30</div>
+          <div class="quest_nav_item_box">31</div>
+          <div class="quest_nav_item_box">32</div>
+          <div class="quest_nav_item_box">33</div>
+          <div class="quest_nav_item_box">34</div>
+          <div class="quest_nav_item_box">35</div>
+          <div class="quest_nav_item_box">36</div>
+          <div class="quest_nav_item_box">37</div>
+          <div class="quest_nav_item_box">38</div>
+          <div class="quest_nav_item_box">39</div>
+          <div class="quest_nav_item_box">40</div>
+          <div class="quest_nav_item_box">41</div>
+          <div class="quest_nav_item_box">42</div>
+        </div>
+      </div>
+
+      <div class="column_two" id="subject-three">
+        <h3 class="question_header">Question</h3>
+        <div class="question">
+          <p>What is the opposite of good</p>
+        </div>
+        <div class="options">
+          <span class="option_letter">A</span>
+          <input type="radio" name="radio" id="radio9" />
+          <label for="radio9"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit natus quidem illum enim deserunt laborum fuga, sit
+            molestiae iusto odio deleniti quia!</label
+          >
+        </div>
+        <div class="options">
+          <span class="option_letter">B</span>
+          <input type="radio" name="radio" id="radio10" />
+          <label for="radio10"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">C</span>
+          <input type="radio" name="radio" id="radio11" />
+          <label for="radio11"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+          </label>
+        </div>
+        <div class="options">
+          <span class="option_letter">D</span>
+          <input type="radio" name="radio" id="radio12" />
+          <label for="radio12"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            necessitatibus quaerat sed, obcaecati, voluptas quasi repellendus
+            suscipit
+          </label>
+        </div>
+        <div class="quest_nav_btn_container">
+          <button class="previous_btn">Previous</button>
+          <button class="next_btn">Next</button>
+        </div>
+        <div class="quest_nav_box_container">
+          <div class="quest_nav_item_box">1</div>
+          <div class="quest_nav_item_box">2</div>
+          <div class="quest_nav_item_box">3</div>
+          <div class="quest_nav_item_box">4</div>
+          <div class="quest_nav_item_box">5</div>
+          <div class="quest_nav_item_box">6</div>
+          <div class="quest_nav_item_box">7</div>
+          <div class="quest_nav_item_box">8</div>
+          <div class="quest_nav_item_box">9</div>
+          <div class="quest_nav_item_box">10</div>
+          <div class="quest_nav_item_box">11</div>
+          <div class="quest_nav_item_box">12</div>
+          <div class="quest_nav_item_box">13</div>
+          <div class="quest_nav_item_box">14</div>
+          <div class="quest_nav_item_box">15</div>
+          <div class="quest_nav_item_box">16</div>
+          <div class="quest_nav_item_box">17</div>
+          <div class="quest_nav_item_box">18</div>
+          <div class="quest_nav_item_box">19</div>
+          <div class="quest_nav_item_box">20</div>
+          <div class="quest_nav_item_box">21</div>
+          <div class="quest_nav_item_box">22</div>
+          <div class="quest_nav_item_box">23</div>
+          <div class="quest_nav_item_box">24</div>
+          <div class="quest_nav_item_box">25</div>
+          <div class="quest_nav_item_box">26</div>
+          <div class="quest_nav_item_box">27</div>
+          <div class="quest_nav_item_box">28</div>
+          <div class="quest_nav_item_box">29</div>
+          <div class="quest_nav_item_box">30</div>
+          <div class="quest_nav_item_box">31</div>
+          <div class="quest_nav_item_box">32</div>
+          <div class="quest_nav_item_box">33</div>
+          <div class="quest_nav_item_box">34</div>
+          <div class="quest_nav_item_box">35</div>
+          <div class="quest_nav_item_box">36</div>
+          <div class="quest_nav_item_box">37</div>
+          <div class="quest_nav_item_box">38</div>
+          <div class="quest_nav_item_box">39</div>
+          <div class="quest_nav_item_box">40</div>
+          <div class="quest_nav_item_box">41</div>
+          <div class="quest_nav_item_box">42</div>
+        </div>
+      </div>
+      <!-- third flex item containing user identity -->
+      <div class="column_three">
+        <img class="user_avatar" src="wrap/pic.jpg" />
+        <div class="username">
+          <p>&#8594; Obi Ifeanyi Lionel</p>
+        </div>
+        <div class="profile_id">
+          <p>&#8594; 123456789</p>
+        </div>
+        <div class="exam_type">
+          <p>&#8594; Jamb UTME 2023 Standard</p>
+        </div>
+        <a class="logout_btn">logout</a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
